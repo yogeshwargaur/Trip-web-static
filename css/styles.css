@@ -51,13 +51,22 @@ footer {
 .tile {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+  position: relative;
 
 }
 
-.tile img {
+.tile-img {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
-  
+  /* height: 75% ; */
+  height: 400px;
+  width: 300px;
+  border-radius: 25px;
+  transition: all .2s;
+  /* background-size: cover; */
+  /* background-position: center; */
+  object-fit: cover;
+
   
 }
 .tile img:hover {
@@ -85,23 +94,41 @@ footer {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/hero2.jpg");
-
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("/assets/hero.jpg");
 
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
-  /* height: 50vh; */
+  height: 60vh;
+  /* width: 50vh; */
+  background-position: center;
+  background-size: cover;
+  background-position-y: top;
+  /* object-fit: contain; */
+  /* object-fit: cover; */
   
   /* 2. Position and center the image to scale nicely on all screens. */
   
 
 }
 
+/* .hero-heading {
+  font-size: 24px;
+  font-weight: 100;
+  justify-content: center;
+} */
+
 .hero-subheading {
   font-size: 24px;
   font-weight: 100;
+  /* border-radius: 500px; */
+  text-align: center;
+  align-self: center;
+  color: whitesmoke;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  /* justify-content:end; */
+
 }
 .hero-input {
   width: 80%;
@@ -207,3 +234,4 @@ span a:active{
     position: fixed;
   }
 }
+
