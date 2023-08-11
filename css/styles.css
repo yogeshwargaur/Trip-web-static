@@ -66,16 +66,23 @@ footer {
   /* background-size: cover; */
   /* background-position: center; */
   object-fit: cover;
+  
+  
 
   
 }
 .tile img:hover {
- 
- 
+  filter: brightness(70%);
+  transform: scale(1.1);;
+  /* color: #000000;
+  box-shadow: 0 0 4px #050505; */
+  /* text-shadow: 0 0 15px #000000; */
+
   
   /* overflow: hidden; */
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+  
 }
 
 /* Hint: Notice the position:absolute and z-index properties. */
