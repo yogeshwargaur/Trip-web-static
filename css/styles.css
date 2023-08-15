@@ -22,11 +22,13 @@ a {
 footer {
   background: #f1f1f1;
   width: 100%;
-  padding: 16px 0px;
+  padding: 0px 0px;
   color: #999;
   vertical-align: bottom;
-  margin-top: 40px;
+  margin-top: 0px;
   text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
   /* width: 100%; */
   /* height: 2.5rem;   */
 }
@@ -52,20 +54,28 @@ footer {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
   position: relative;
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  /* object-fit: cover; */
 
 }
 
-.tile-img {
+.tile img {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
   /* height: 75% ; */
-  height: 400px;
-  width: 300px;
-  border-radius: 25px;
+  /* height: 400px; */
+  height: 100%;
+  /* width: 300px; */
+  width: 100%;
+  /* border-radius: 25px; */
   transition: all .2s;
   /* background-size: cover; */
   /* background-position: center; */
   object-fit: cover;
+  overflow: hidden;
   
   
 
@@ -73,7 +83,7 @@ footer {
 }
 .tile img:hover {
   filter: brightness(70%);
-  transform: scale(1.1);;
+  transform: scale(1.1);
   /* color: #000000;
   box-shadow: 0 0 4px #050505; */
   /* text-shadow: 0 0 15px #000000; */
@@ -159,16 +169,29 @@ footer {
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  /* height: 20rem; */
+  /* width: 100%; */
+  /* overflow: hidden;  */
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px white;
+  overflow: hidden;
 
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height: 80%;
+  width: 100%;
+  transition: all 0.9s;
 
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  filter: brightness(60%);
+  transform: scale(1.1);
 }
 
 /* ================================== */
@@ -182,14 +205,14 @@ footer {
   
 }
 
-/* .row-flex {
+.row-flex {
   display: flex;
   flex-wrap: wrap;
 }
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
-} */
+}
 
 
 
@@ -241,4 +264,20 @@ span a:active{
     position: fixed;
   }
 }
+/* 
+.card {
+  text-align: center; 
+ background-color: #999;
+ color: #000000;
+  box-shadow: 0 0 1px #050505;
+  text-shadow: 0 0 0px #000000; */
+  /* overflow: hidden;*/
+  /* position: absolute; */
+/* }
+.card:hover {
+  filter: brightness(70%);
+  transform: scale(1.1);
+   overflow: hidden;  */
+  /* position: absolute;  */
+/* }  */
 
