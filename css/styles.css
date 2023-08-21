@@ -214,17 +214,59 @@ footer {
   flex-direction: column;
 }
 
+.ool {
+  /* height: 100%;
+  width: 100%; */
+  overflow: hidden;
+  width: fit-content;
+  height: 50%;
+  width: 50%;
+  /* position:relative; */
 
+}
+ .ol {
+  /* height: 100%; */
+ }
 
 
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 2%;
+  
 
+  /* height: 0%; */
+  /* height: px; */
+  
 }
+
+.booking {
+  border-color:#999;
+  border-style:groove;
+  /* border-radius:; */
+  
+}
+
+.sold{
+  /* text-align: center; */
+  /* margin: 50%; */
+  /* justify-content: center; */
+}
+.bold
+{
+font-weight:lighter;
+}
+
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  /* transition: 500ms; */
+  filter: brightness(80%);
+  /* transform: inherit; */
   
 
 }
